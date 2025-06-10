@@ -1,0 +1,22 @@
+! Parameters of crystal and repair process
+! lwh 2024.4.27
+
+2.855312 	! alat, crystal lattice constant
+1 		! number of atom types in the crystal
+2.0 		!param1: how many times of the alat, which is used for NEAR/AWAY-dislocation-atom selection
+0.83 		!param2: 0.83*alat. the nearest distance above which a pair of atoms are associated like CNA
+0.91 		!param3: 0.91*alat. the farest distance above which a pair of atoms are associated like CNA
+1.01 		!param4: 1.01*alat. thickness of the shell
+0.75 		!param5: 0.75*alat. mininum distance, position is a vacancy if distance is bigger than it.
+1.0 		!param6: 1.0 angstrom. cutoff distance of cluster analysis
+0.8660254 	!param7: 0.866*alat. sqrt(3)/2, the nearest distance of two atoms in BCC
+1.0 		!param8: 1.0*alat, i.e. alat, the 2ed-nearest distance of two atoms in BCC
+1.7 		!param9: 1.7*alat. cutoff distance in selecting atoms near type0(csp process)
+0.7361 		!param10: 0.7361*alat. low cutoff distance in selecting common atoms (csp process)
+1.15 		!param11: 1.15*alat. high cutoff distance in selecting common atoms (csp process)
+52              !param12: number of threads in omp
+
+
+
+
+

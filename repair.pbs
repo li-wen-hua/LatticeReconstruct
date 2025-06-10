@@ -1,0 +1,11 @@
+#PBS -N myrepair
+#PBS -q nmsc
+#PBS -l nodes=nmsc-11:ppn=52
+#PBS -S /bin/bash
+#PBS -V
+###Set initial environment###
+
+cd $PBS_O_WORKDIR
+
+time bash repair.sh > myrepair.log
+
