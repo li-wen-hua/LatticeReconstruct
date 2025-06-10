@@ -22,10 +22,12 @@ Dependencies and Pre-run Configuration
 
 Program Structure
 -----------------
-1. Main Directory:
+1. Files in Main Directory:
    - `repair.sh`: Main execution script
    - `jobrun.sh`, `repair.pbs`: Example job run/submission scripts
    - `repair.params`: Parameter configuration file
+   - `Figure1_ParallelPerformance.tif`, `Figure2_IdentificationResultsOfExample.tif`: Parrallel performance and identification result of a small simulation box.
+
 
 2. Subdirectories:
    - `datafiles-theINI`: Stores original input files
@@ -89,7 +91,7 @@ Performance & OpenMP Parallelization
 - Small model (~100k atoms): ~10–30 seconds with parallelization
 - Large model (~4.4 million atoms): ~8–18 minutes with parallelization
 - Parallel efficiency is optimal around 8 cores; larger models benefit from more threads
-
+- Parrallel performance and identification result of a small box (~100k atoms) are shown in Figure1_ParallelPerformance.tif and Figure2_IdentificationResultsOfExample.tif
 
 
 Author’s Note
