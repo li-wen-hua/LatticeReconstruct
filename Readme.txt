@@ -26,8 +26,9 @@ Program Structure
    - `repair.sh`: Main execution script
    - `jobrun.sh`, `repair.pbs`: Example job run/submission scripts
    - `repair.params`: Parameter configuration file
-   - `Figure1_ParallelPerformance.tif`, `Figure2_IdentificationResultsOfExample.tif`: Parrallel performance and identification result of a small simulation box.
-
+   - `Figure1_ParallelPerformance.tif`: Parrallel performance of a small simulation box.
+   - `Figure2_IdentificationResultsOfExample.tif`: Identification result of a small simulation box.
+   - `WignerSeitzIdentifications.mp4`: WS identification results of the process of a interstitial defect cluster being absorbed by dislocation network.
 
 2. Subdirectories:
    - `datafiles-theINI`: Stores original input files
